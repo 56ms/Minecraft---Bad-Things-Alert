@@ -3,8 +3,8 @@ Detects griefing-style behaviors and alerts a specified Discord Channel.
 
 
 Permissions:
-  PowerAlerter.commands.what_is_detected:
-    default: op
+PowerAlerter.commands.what_is_detected:
+  default: op
 
 Commands:
   what_is_detected:
