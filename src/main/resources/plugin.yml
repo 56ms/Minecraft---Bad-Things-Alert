@@ -1,0 +1,16 @@
+name: BadThingsAlerter
+version: 1.0.0
+main: me.badThingsAlerter.BadThingsAlerter
+api-version: 1.21
+author: Power16
+description: Detects griefing-style behaviors and alerts Discord Channel.
+
+commands:
+  what_is_detected:
+    description: Shows the list of all detection categories with pagination.
+    usage: /what_is_detected [page]
+    permission: PowerAlerter.commands.what_is_detected
+
+permissions:
+  PowerAlerter.commands.what_is_detected:
+    default: op

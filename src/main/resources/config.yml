@@ -1,0 +1,8 @@
+
+#DO NOT CHANGE VARIABLE NAMES, WILL BREAK PLUGIN (if you accidentally do it, delete this file, and it should self-correct)
+
+role_mention: "<@&[id]>" # Put the role mention id with <@&[id]> format! this will be the role mentioned in the alert message.
+# opt: but a default message after the message like "<@&[id]> [ALERT]"
+#e.g. "<@&1234567890>" or "@Staff"
+
+webhook_url: "" # paste your discord webhook URL in the discord channel you would like to receive alerts for!
